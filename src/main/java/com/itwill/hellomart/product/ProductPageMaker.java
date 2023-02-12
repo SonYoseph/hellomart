@@ -47,8 +47,8 @@ public class ProductPageMaker {
 		setPageRange();
 		setTotBlock(this.totPage); // 전체 페이지 블록 갯수 계산
 		setBlockRange(); // 페이지 블록의 시작, 끝 번호 계산
-		System.out.println();
-
+		// System.out.println();
+		/*
 		System.out.println(this.curPage+" 페이지("+pageBegin+" ~ "+pageEnd+")");
 		System.out.println("***************페이지정보***********************************");
 		System.out.println("01.화면당 페이지 수(BLOCK_SCALE):	"+BLOCK_SCALE);
@@ -68,7 +68,7 @@ public class ProductPageMaker {
 		System.out.println("14.DB에서select할게시물끝번호(pageEnd):   "+this.pageEnd);
 		
 		System.out.println("*************************************************************");
-
+		*/
 	}
 
 	public void setTotPage() {
