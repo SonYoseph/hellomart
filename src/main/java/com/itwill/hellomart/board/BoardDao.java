@@ -151,7 +151,7 @@ public class BoardDao {
 	 * 상품게시판에 게시물 리스트를 반환(게시물시작번호,게시물끝번호)
 	 */
 	public ArrayList<Board> findBoardList(int start, int last, int p_no) throws Exception{
-		System.out.println("" + start + " ~ " + last);
+		// System.out.println("" + start + " ~ " + last);
 		Connection con = null;
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;// 조회 결과에 접근하는 참조 변수
@@ -221,7 +221,7 @@ public class BoardDao {
 	 * 유저가 작성한 게시물 전체 조회
 	 */
 	public ArrayList<Board> findBoardByUserId(int start, int last,String sUserId) throws Exception {
-		System.out.println("" + start + " ~ " + last);
+		// System.out.println("" + start + " ~ " + last);
 		Connection con = null;
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;// 조회 결과에 접근하는 참조 변수
